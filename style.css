@@ -6,7 +6,7 @@ body {
   color: #505962;
 }
 
-.offset {
+.offset:before {
   display: block;
   content: "";
   height: 4rem;
@@ -19,7 +19,7 @@ body {
   font-weight: 700;
   font-size: .9rem;
   letter-spacing: .1rem;
-  background-color: rgba(0, 0, 0, 0.6)!important; 
+  background-color: rgba(0,0,0,0.6)!important; 
 }
 .navbar-brand img {
   height: 2rem;
@@ -44,7 +44,7 @@ body {
   width: 100%;
   max-width: 100%;
   position: absolute;
-  top: 30%;
+  top: 38%;
   z-index: 1;
   color: #fff;
   text-transform: uppercase;
